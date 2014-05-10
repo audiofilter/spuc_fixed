@@ -22,6 +22,9 @@ that are
 - c) have more intuitive return types for various math operations such as addition,subtraction, multiplication, etc
 - d) Useful for spuc library
 
+Expected speedup vs SystemC can be as much as 300 times faster
+
+
 Supported Saturation / Rounding modes:
 
 - Saturation modes based on : SC\_WRAP, SC_SAT, SC_SAT_SYM
