@@ -1,0 +1,15 @@
+os:
+  - osx
+language: 
+  - objective-c
+compiler:
+  - clang
+before_install:
+  - brew update
+install:
+  - brew install cmake
+script: 
+  - cd test_speed && make && cd ..
+  - cd test_fixed && make && cd ..
+  - cd test_ints && make && cd ..
+
